@@ -50,7 +50,6 @@
     "react-router-redux": "^2.1.0",
     "redux": "^3.0.6",
     "redux-thunk": "^1.0.3",
-    "semantic-ui": "^2.1.8",
     "whatwg-fetch": "^0.11.0"
   },
   "scripts": {
