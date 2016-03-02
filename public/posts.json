@@ -1,0 +1,18 @@
+[
+    {
+        "id": 11,
+        "slug": "homepage-project-1",
+        "title": "homepage project",
+        "markdown": "",
+        "html": "<p>이 글은 본 개인 홈페이지작업에대한 기록이다. 방학을 비우고 미루고 미루던 홈페이지 작업을 붙들었다. 그동안 블로그를 생각하여 static page도 괜찮겠다 싶어서 jekyll, hexo등의 static page generator도 찾아보고 했지만, 아무래도 더 많은 재밌는 코드들을 쓰거나 쇼케이스로 사용하기 위해선 서버를 붙이고 블로그가 아니라 개인홈페이지로 만들기로 하였다.</p><p>첫번째 고려사항은 hybrid render였다. 이전 프로젝트에서도 이부분을 오래 붙들고 있었어서 중요성을 느꼈고 나도 내 홈페이지가 잘 검색이 되었으면 한다. 그 전엔 backbone과 express, handlebar를 이용해 hybrid render를 구현하는 방법을 알아봤었는데, airbnb를 많이 참고했다. 이 회사는 hybrid render를 해결하기위해 자체적으로 rendr라는 오픈소스를 개발하기도 했다. 그런데 airbnb가 최근 관심을 돌린 곳은 react이다. https://medium.com/code-stories/dev-chats-spike-brehm-of-airbnb-87e155f3475d#.ebg5pofe9 react를 알게된건 꽤 오래되었지만 react를 쓰기로 결심한건 react의 서버사이드 렌더링을 해결한 virtual dom의 개념 덕분이었다. 이에대한 글은 나중에 다시 쓰기로 하자.</p>",
+        "date": ""
+    },
+    {
+        "id": 21,
+        "slug": "homepage-project-1",
+        "title": "homepage project",
+        "markdown": "",
+        "html": "<p>이 글은 본 개인 홈페이지작업에대한 기록이다. 방학을 비우고 미루고 미루던 홈페이지 작업을 붙들었다. 그동안 블로그를 생각하여 static page도 괜찮겠다 싶어서 jekyll, hexo등의 static page generator도 찾아보고 했지만, 아무래도 더 많은 재밌는 코드들을 쓰거나 쇼케이스로 사용하기 위해선 서버를 붙이고 블로그가 아니라 개인홈페이지로 만들기로 하였다.</p><p>첫번째 고려사항은 hybrid render였다. 이전 프로젝트에서도 이부분을 오래 붙들고 있었어서 중요성을 느꼈고 나도 내 홈페이지가 잘 검색이 되었으면 한다. 그 전엔 backbone과 express, handlebar를 이용해 hybrid render를 구현하는 방법을 알아봤었는데, airbnb를 많이 참고했다. 이 회사는 hybrid render를 해결하기위해 자체적으로 rendr라는 오픈소스를 개발하기도 했다. 그런데 airbnb가 최근 관심을 돌린 곳은 react이다. https://medium.com/code-stories/dev-chats-spike-brehm-of-airbnb-87e155f3475d#.ebg5pofe9 react를 알게된건 꽤 오래되었지만 react를 쓰기로 결심한건 react의 서버사이드 렌더링을 해결한 virtual dom의 개념 덕분이었다. 이에대한 글은 나중에 다시 쓰기로 하자.</p>",
+        "date": ""
+    }
+]

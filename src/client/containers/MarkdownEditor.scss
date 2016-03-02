@@ -1,0 +1,12 @@
+.markdown-editor {
+
+    .editor, .preview {
+        float: left;
+        width: 50%;
+    }
+    .editor {
+        textarea {
+            width : 100%;
+        }
+    }
+}

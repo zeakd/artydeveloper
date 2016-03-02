@@ -1,5 +1,6 @@
 import React from 'react';
 import marked from 'marked';
+import './MarkdownEditor.scss';
 
 export default class MarkdownEditor extends React.Component {
     constructor(props) {
@@ -11,15 +12,19 @@ export default class MarkdownEditor extends React.Component {
 
     render() {
         return (
-            <div>
-                <button onClick={this.submit.bind(this)}>submit</button>
-                <textarea 
-                    onInput={this.handleTextareaChange.bind(this)} 
-                    defaultValue={this.props.helloMessage}
-                />
-                <div 
-                    dangerouslySetInnerHTML={{ __html: marked(this.state.markdown, {sanitize: true})}} 
-                />
+            <div className='markdown-editor'>
+                <div className='editor'>
+                    <button onClick={this.submit.bind(this)}>submit</button>
+                    <textarea 
+                        onInput={this.handleTextareaChange.bind(this)} 
+                        defaultValue={this.props.helloMessage}
+                    />
+                </div>
+                <div className='preview'>
+                    <div 
+                        dangerouslySetInnerHTML={{ __html: marked(this.state.markdown, {sanitize: true})}} 
+                    />
+                </div>
             </div>
         );
     }
@@ -36,6 +41,7 @@ export default class MarkdownEditor extends React.Component {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
+                title: 'test',
                 markdown: this.state.markdown,
                 html: marked(this.state.markdown, {sanitize: true})
             })    
